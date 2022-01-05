@@ -51,7 +51,16 @@ export default function Banner() {
           </Text>
           <Flex>
             <Button variant="whiteButton" aria-label="Ürünü İncele">
-              Ürünü İncele
+             <Link
+                activeClass="active"
+                to="feature"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Ürünü İncele
+              </Link>
             </Button>
           </Flex>
           <Flex sx={styles.sponsorBox}>
