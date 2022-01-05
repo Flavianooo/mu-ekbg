@@ -40,7 +40,7 @@ const styles = {
   containerBox: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'end',
+    justifyContent: 'space-between',
     flexWrap: ['wrap', null, null, 'nowrap'],
   },
   contentBox: {
