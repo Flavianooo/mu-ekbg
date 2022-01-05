@@ -50,18 +50,6 @@ export default function Banner() {
             Engelleri görmezden gelip engelsiz bir yaşam sürmek imkansız değil.
           </Text>
           <Flex>
-            <Button variant="whiteButton" aria-label="Ürünü İncele">
-             <Link
-                activeClass="active"
-                to="feature"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Ürünü İncele
-              </Link>
-            </Button>
           </Flex>
           <Flex sx={styles.sponsorBox}>
             <Text sx={styles.sponsorTitle}>Sponsored by:</Text>

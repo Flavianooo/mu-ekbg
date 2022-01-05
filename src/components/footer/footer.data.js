@@ -58,4 +58,21 @@ export default [
       }
     ],
   },
+  {
+    header: 'İletişim',
+    items: [
+      {
+        path: '/',
+        label: 'Mail Adresimiz',
+      },
+      {
+        path: '/',
+        label: 'Bize Ulaşın',
+      },
+      {
+        path: '/',
+        label: 'Telefon',
+      }
+    ],
+  },
 ];

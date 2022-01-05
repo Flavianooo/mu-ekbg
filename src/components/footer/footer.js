@@ -25,10 +25,7 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        Tüm hakları saklıdır.
-        <Link path="https://redq.io/" target="_blank">
-          M.Ü - Proje Geliştiricileri
-        </Link>
+        Tüm hakları saklıdır. - M.Ü - Proje Geliştiricileri
       </Text>
     </footer>
   );

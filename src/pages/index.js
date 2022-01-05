@@ -14,6 +14,7 @@ import TestimonialCard from 'sections/testimonial';
 import SecurePayment from 'sections/secure-payment';
 import Package from 'sections/package';
 import Faq from 'sections/faq';
+import PartnerSectionTwo from 'sections/partnertwo';
 
 export default function IndexPage() {
   return (
@@ -24,6 +25,7 @@ export default function IndexPage() {
           <Banner />
           <KeyFeature />
           <PartnerSection />
+          <PartnerSectionTwo />
         </Layout>
       </StickyProvider>
     </ThemeProvider>

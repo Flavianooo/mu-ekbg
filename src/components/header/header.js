@@ -38,7 +38,7 @@ export default function Header({ className }) {
           >
             <Link
                 activeClass="active"
-                to="feature"
+                to="partner"
                 spy={true}
                 smooth={true}
                 offset={-70}
