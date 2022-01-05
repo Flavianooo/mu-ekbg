@@ -23,6 +23,7 @@ export default function IndexPage() {
           <SEO title="Engellerden Kaçan Beyin Geliştiricisi" />
           <Banner />
           <KeyFeature />
+          <PartnerSection />
         </Layout>
       </StickyProvider>
     </ThemeProvider>

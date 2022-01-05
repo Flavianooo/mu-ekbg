@@ -36,7 +36,16 @@ export default function Header({ className }) {
             variant="secondary"
             aria-label="Ürünlerimizi Gör"
           >
-            Ürünlerimizi Gör
+            <Link
+                activeClass="active"
+                to="feature"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Ürünlerimizi Gör
+              </Link>
           </Button>
 
           <MobileDrawer />

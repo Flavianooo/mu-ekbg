@@ -6,11 +6,11 @@ import Image from 'components/image';
 import Partner from 'assets/partner.png';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Ürünümüz',
+  title: 'Engellere karşı her zaman yanınızda...',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
-  btnName: 'Get Started',
+    'Şerit takip sistemi, yön bulma ve birçok özelliği içinde barındıran sistemimiz ile gelişmiş bir sürücü desteği özelliğini sizlere sağlıyoruz. Özellikle uzun otoyol sürüşlerinde yoldan kopmanızı önleyen şerit takip sistemimiz ile her zaman yolda kalın.',
+  btnName: 'Satın Al',
   btnURL: '#',
 };
 
@@ -28,7 +28,7 @@ export default function PartnerSection() {
           />
         </Box>
         <Box sx={{ px: [0, null, '40px', 0] }}>
-          <Image src={Partner} alt="Partner" />
+          <Image src="https://cdn.discordapp.com/attachments/739293353933406308/928373150385860659/WhatsApp_Image_2022-01-05_at_21.27.21.jpeg" alt="Partner" />
         </Box>
       </Container>
     </section>

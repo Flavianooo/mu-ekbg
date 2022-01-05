@@ -19,10 +19,10 @@ const data = [
   {
     id: 2,
     imgSrc: Editing,
-    altText: 'Uyarılar',
-    title: 'Uyarı Sistemi',
+    altText: 'Şerit Takip Sistemi',
+    title: 'Şerit Takip Sistemi',
     text:
-      'Herhangi bir kaza durumuyla karşı karşıya kalmak üzereyken erkenden uyarı alın.',
+      'Aracınızın konumunu sistemimizin kontrol ünitesi hesaplar, eğer şeritten ayrılmak üzereyseniz sesli bir uyarı verir.',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     title: 'Kalite',
     text:
       'Yüksek kalitedeki ürünlerimizi yıllar boyunca kullanın.',
-  },
+  }
 ];
 
 export default function KeyFeature() {
