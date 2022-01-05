@@ -6,7 +6,7 @@ import Image from 'components/image';
 import Partner from 'assets/partner.png';
 
 const data = {
-  subTitle: 'Ürünümüz',
+  subTitle: 'Ürünlerimiz',
   title: 'Engellere karşı her zaman yanınızda...',
   description:
     'Şerit takip sistemi, yön bulma ve birçok özelliği içinde barındıran sistemimiz ile gelişmiş bir sürücü desteği özelliğini sizlere sağlıyoruz.\
@@ -40,7 +40,7 @@ const styles = {
   containerBox: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'end',
     flexWrap: ['wrap', null, null, 'nowrap'],
   },
   contentBox: {
